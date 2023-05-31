@@ -254,6 +254,7 @@
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
             <includes>
+                <include>org.talend.libraries:activation:jar:6.0.0</include>
                 <include>org.example.talendtutorial.code:routines:jar:8.0.1</include>
             </includes>
             <outputFileNameMapping>${artifact.artifactId}.${artifact.extension}</outputFileNameMapping>
@@ -263,6 +264,7 @@
             <outputDirectory>lib</outputDirectory>
             <includes>
                 <include>mysql:mysql-connector-java:jar:8.0.18</include>
+                <include>com.sun.mail:javax.mail:jar:1.6.2</include>
                 <include>org.apache.logging.log4j:log4j-api:jar:2.13.2</include>
                 <include>org.apache.logging.log4j:log4j-core:jar:2.13.2</include>
                 <include>org.apache.logging.log4j:log4j-slf4j-impl:jar:2.13.2</include>
